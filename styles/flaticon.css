@@ -1,0 +1,25 @@
+/*
+Flaticon icon font: Flaticon
+Creation date: 07/05/2019 07:37
+*/
+
+@font-face {
+    font-family: "Flaticon";
+    src: url(../fonts/Flaticon.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: Flaticon;
+    font-size: 20px;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+.flaticon-github-logo:before { content: "\f100"; }
+.flaticon-google-plus-symbol:before { content: "\f101"; }
+.flaticon-windows-logo:before { content: "\f102"; }
+.flaticon-envato:before { content: "\f103"; }
+.flaticon-flickr-logo-of-two-dots:before { content: "\f104"; }
